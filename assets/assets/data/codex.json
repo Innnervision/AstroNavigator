@@ -1,0 +1,107 @@
+[
+  {
+    "id": "codex_ships",
+    "category": "ships",
+    "title": "Starships",
+    "entries": [
+      {
+        "id": "entry_fighter",
+        "title": "Fighter Class",
+        "content": "Fighter-class ships are the backbone of any combat fleet. Fast and agile, they sacrifice cargo space for raw firepower and maneuverability. Ideal for bounty hunters and combat pilots.",
+        "unlocked": true,
+        "imagePath": ""
+      },
+      {
+        "id": "entry_freighter",
+        "title": "Freighter Class",
+        "content": "Freighters are the lifeblood of interstellar commerce. Their massive cargo holds make them indispensable for trade routes, though their sluggish speed makes them easy targets without an escort.",
+        "unlocked": true,
+        "imagePath": ""
+      },
+      {
+        "id": "entry_explorer",
+        "title": "Explorer Class",
+        "content": "Explorer-class vessels are built for the unknown. Equipped with advanced sensor arrays and extended fuel tanks, they can venture further into uncharted space than any other ship class.",
+        "unlocked": true,
+        "imagePath": ""
+      }
+    ]
+  },
+  {
+    "id": "codex_factions",
+    "category": "factions",
+    "title": "Factions",
+    "entries": [
+      {
+        "id": "entry_nebula_corp",
+        "title": "Nebula Corporation",
+        "content": "Founded in 2387, Nebula Corporation grew from a small mining operation into the galaxy's most powerful megacorporation. They control over 40% of all industrial output in the known systems.",
+        "unlocked": true,
+        "imagePath": ""
+      },
+      {
+        "id": "entry_astra_conf",
+        "title": "Astra Confederation",
+        "content": "The Astra Confederation was formed after the Galactic Wars to maintain peace and order. Their military might is unmatched, but critics argue their laws restrict free trade and individual liberty.",
+        "unlocked": true,
+        "imagePath": ""
+      },
+      {
+        "id": "entry_free_traders",
+        "title": "Free Traders Guild",
+        "content": "The Free Traders Guild is less an organization and more a philosophy. United by a shared belief in freedom of movement and commerce, guild members help each other survive in the lawless frontier.",
+        "unlocked": true,
+        "imagePath": ""
+      }
+    ]
+  },
+  {
+    "id": "codex_commodities",
+    "category": "economy",
+    "title": "Commodities",
+    "entries": [
+      {
+        "id": "entry_minerals",
+        "title": "Minerals",
+        "content": "Raw ore and refined metals form the foundation of the galactic economy. Mining colonies produce them in bulk, while industrial worlds consume them voraciously.",
+        "unlocked": true,
+        "imagePath": ""
+      },
+      {
+        "id": "entry_technology",
+        "title": "Technology",
+        "content": "Advanced tech components are the most valuable legal commodity in the galaxy. Research stations produce them, and military and corporate buyers pay top credit.",
+        "unlocked": true,
+        "imagePath": ""
+      },
+      {
+        "id": "entry_luxury",
+        "title": "Luxury Goods",
+        "content": "From rare spices to exotic art, luxury goods command extraordinary prices in wealthy systems. Smuggling them through restricted zones can triple your profit — if you don't get caught.",
+        "unlocked": false,
+        "imagePath": ""
+      }
+    ]
+  },
+  {
+    "id": "codex_lore",
+    "category": "lore",
+    "title": "Galactic History",
+    "entries": [
+      {
+        "id": "entry_galactic_wars",
+        "title": "The Galactic Wars",
+        "content": "The Galactic Wars (2340-2380) were a series of devastating conflicts that reshaped the known universe. Fought over resources and political dominance, they left entire systems uninhabitable and gave rise to the current faction structure.",
+        "unlocked": true,
+        "imagePath": ""
+      },
+      {
+        "id": "entry_warp_tech",
+        "title": "Warp Drive Technology",
+        "content": "Warp drives were invented in 2301 by Dr. Elara Voss, revolutionizing interstellar travel. Modern warp cores can traverse a light-year in minutes, though the fuel cost remains prohibitive for smaller vessels.",
+        "unlocked": true,
+        "imagePath": ""
+      }
+    ]
+  }
+]

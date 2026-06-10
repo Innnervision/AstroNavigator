@@ -1,0 +1,77 @@
+[
+  {
+    "id": "nebula_corporation",
+    "name": "Nebula Corporation",
+    "description": "A powerful megacorporation controlling vast industrial and research assets across the galaxy. They value profit above all else.",
+    "color": "#00D4FF",
+    "startingReputation": 0,
+    "maxReputation": 1000,
+    "economyType": "corporate",
+    "headquarters": "nebula_reach",
+    "allies": [],
+    "enemies": ["astra_confederation"],
+    "tradeBonus": 0.15,
+    "combatBonus": 0.0,
+    "explorationBonus": 0.1,
+    "specialAbility": "corporate_discount",
+    "ranks": [
+      {"threshold": -500, "title": "Enemy", "perks": []},
+      {"threshold": -100, "title": "Hostile", "perks": []},
+      {"threshold": 0,    "title": "Neutral", "perks": []},
+      {"threshold": 100,  "title": "Associate", "perks": ["5% trade discount"]},
+      {"threshold": 300,  "title": "Partner", "perks": ["10% trade discount", "access to corp ships"]},
+      {"threshold": 600,  "title": "Executive", "perks": ["15% trade discount", "exclusive missions"]},
+      {"threshold": 1000, "title": "Board Member", "perks": ["20% trade discount", "capital ship access"]}
+    ]
+  },
+  {
+    "id": "astra_confederation",
+    "name": "Astra Confederation",
+    "description": "The dominant military and political power in the inner systems. They maintain order through strength and law.",
+    "color": "#FF6B6B",
+    "startingReputation": 0,
+    "maxReputation": 1000,
+    "economyType": "military",
+    "headquarters": "astra_bastion",
+    "allies": [],
+    "enemies": ["nebula_corporation"],
+    "tradeBonus": 0.0,
+    "combatBonus": 0.2,
+    "explorationBonus": 0.05,
+    "specialAbility": "military_escort",
+    "ranks": [
+      {"threshold": -500, "title": "Outlaw", "perks": []},
+      {"threshold": -100, "title": "Suspect", "perks": []},
+      {"threshold": 0,    "title": "Civilian", "perks": []},
+      {"threshold": 100,  "title": "Recruit", "perks": ["access to military zones"]},
+      {"threshold": 300,  "title": "Officer", "perks": ["military escort", "weapon upgrades"]},
+      {"threshold": 600,  "title": "Commander", "perks": ["fleet support", "military contracts"]},
+      {"threshold": 1000, "title": "Admiral", "perks": ["capital ship access", "system control"]}
+    ]
+  },
+  {
+    "id": "free_traders",
+    "name": "Free Traders Guild",
+    "description": "A loose coalition of independent traders, smugglers, and explorers who value freedom above all. No questions asked.",
+    "color": "#00FF88",
+    "startingReputation": 50,
+    "maxReputation": 1000,
+    "economyType": "trading",
+    "headquarters": "frontier_outpost",
+    "allies": [],
+    "enemies": [],
+    "tradeBonus": 0.1,
+    "combatBonus": 0.05,
+    "explorationBonus": 0.15,
+    "specialAbility": "smuggling_routes",
+    "ranks": [
+      {"threshold": -500, "title": "Traitor", "perks": []},
+      {"threshold": -100, "title": "Unwelcome", "perks": []},
+      {"threshold": 0,    "title": "Stranger", "perks": []},
+      {"threshold": 50,   "title": "Drifter", "perks": ["access to black market"]},
+      {"threshold": 200,  "title": "Trader", "perks": ["smuggling routes", "fence contacts"]},
+      {"threshold": 500,  "title": "Veteran", "perks": ["rare cargo access", "pirate immunity"]},
+      {"threshold": 1000, "title": "Legend", "perks": ["guild master status", "all routes unlocked"]}
+    ]
+  }
+]
